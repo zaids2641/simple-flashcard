@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="First task from mac.applied-computing.org.">
+	<meta name="keywords" content="HTML, CSS, JavaScript, flashcard, flash, card">
+	<meta name="author" content="Felix Diaz III">
+	<title>Simple Flashcard</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&display=swap" rel="stylesheet"> 
+	<link type="text/css" rel="stylesheet" href="/assets/styles.css" />
+</head>
+
+<body>
+	<main>
+		<h1>Happy Valentine's Day!</h1>
+		<h2>What do you do to show someone you apreciate them?</h2>
+		<div class="flip-container" id="flashcard">
+			<button class="previous" id='prev'><i class="fa fa-arrow-left"></i></button>
+			<button id='next'><i class="fa fa-arrow-right"></i></button>
+			<button id='flip'></button>
+	
+			<div class="flipper">
+				<div class="front">
+					<span id="flashcard-content-front"></span>
+				</div>
+				<div class="back">
+					<span id="flashcard-content-back"></span>
+					<div><img src="" style="max-width:80%; max-height: 300px; left:25%; top:75%;" class="card-image" id="card-image"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<small><h2>First Task from <strong>mac.applied-computing.org</strong></h2></small>
+		<p>
+			Modified by: Felix Diaz III
+		</p>
+	</footer>
+		
+<script src="assets/script.js"></script>
+	</body>
+</html>
